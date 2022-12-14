@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="mostrarMenu()" color="primary">
+        <ion-icon slot="icon-only" name="menu-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>RegistrAPP</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+  <h1> Bienvenido: {{ nombre }} </h1>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Contexto</ion-card-subtitle>
+      <ion-card-title>¿Quienes Somos?</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p class="parrafo">
+        Somos estudiantes de analista programador de la escuela de informática y telecomunicaciones, nosotros decidimos crear una aplicación para acelerar el proceso de asistencia y volver este proceso mucho mas fiable además de disminuir la carga laboral de los profesores haciendo que el estudiante pueda registrar su asistencia escaneando un código QR.
+      </p>
+    </ion-card-content>
+    <img src="/assets/asis.jpg" class="ion-padding">
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Funcionalidad De La Aplicacion</ion-card-subtitle>
+      <ion-card-title>¿Como Funciona La Aplicacion?</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p class="parrafo2">
+        Como funciona nuestra aplicación? Primero el docente ingresara a la plataforma de duoc uc  con sus credenciales e ingresara a la opción de generar un código QR para la asistencia.
+      </p>
+      <img src="/assets/asis2.jpg" class="ion-padding">
+      <br>
+      <p class="parrafo2">
+        1) Luego los estudiantes deberán abrir su aplicación.</p>
+      <img src="/assets/inicio.jpg" class="ion-padding">
+      <br>
+      <p class="parrafo2">
+        2) Iniciar sesión (en el caso de no tener una cuenta deberá registrarse en el punto anterior).</p>
+      <img src="assets/iniciar.jpg" class="ion-padding">
+      <br>
+      <p class="parrafo2">
+        3) Luego seleccionaran la opción de  "escanear código QR".</p>
+      <img src="assets/seleccionarescanear.jpg" class="ion-padding">
+      <p class="parrafo2">
+        4) Luego le daran al boton escanear QR.
+      </p>
+      <img src="/assets/escanear.jpg" class="ion-padding">
+      <p class="parrafo2">
+        Finalmente el usuario recibirá una notificación de que su asistencia a quedado registrada de forma exitosa.
+      </p>
+      <img src="/assets/finescan.jpg" class="ion-padding">
+    </ion-card-content>
+  </ion-card>
+</ion-content>

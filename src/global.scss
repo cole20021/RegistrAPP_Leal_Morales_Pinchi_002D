@@ -1,0 +1,89 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+.posicion, .posicion .sc-ion-action-sheet-md{
+    text-align: center;
+}
+.logoduoc, .logoduoc .sc-ion-action-sheet-md{
+    width:40%;
+    height:20%;
+    margin: auto;
+    border-radius: 25px;              /* 1 parámetro /
+  border-radius: 25% 50%;           / 2 parámetros /
+  border-radius: 50px 25px 10px;    / 3 parámetros /
+  border-radius: 25px 0 15px 50px;  / 4 parámetros */
+}
+.bienven, .bienven .sc-ion-action-sheet-md{
+    text-align: center;
+}
+.selec, .selec .sc-ion-action-sheet-md{
+    text-align: center;
+}
+.parrafo{
+    text-align: justify;
+    color:rgb(63, 63, 63);
+}
+.parrafo2{
+    text-align: justify;
+    color:rgb(63, 63, 63);
+}
+.botones1{
+    display:block;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+.imagen1 {
+  display:block;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.listo{
+  width: 13%;
+  height: 10%;
+  margin: auto;
+  margin-left: 43%;
+}
+.cajaescan{
+
+  top: 20%;
+}
+.cajaregis{
+
+  top: 20%;
+}
+
+//estilos personalizados
+
+.text-primary{
+  color : var(--ion-color-primary) !important;
+}
+
+.noticia-source-name{
+  font-size: 12px;
+  color:lightslategrey;
+}
